@@ -1,0 +1,104 @@
+body{
+    background-image: url(Links/Fondo.jpg);
+}
+
+a{
+    color: black;
+    font-size: 15pt;
+    text-align: center;
+    font-family: "Vollkorn";
+    line-height: auto;
+    font-style: bold;
+    margin-left: 3cm;
+    font-weight: 400;
+}
+
+hr{
+    border-style: outset;
+    border-width: 3px;
+    border-color: red;
+}
+
+nav{
+    padding: 0.5cm;
+}
+
+
+h1{
+    color: red;
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 30pt;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: "Constantia";
+    font-size: 15pt;
+    margin-top: 1.5cm;
+    margin-bottom: 1.5cm;
+}
+
+.LeftText{
+    margin-right: 5cm;
+    text-align: justify;
+    margin-left: 3cm;
+}
+
+.RightText{
+    margin-right: 1.5cm;
+    text-align: justify;
+    margin-left: 3cm;
+}
+
+.Imagen{
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    border: 3pt outset red;
+    align-items: center;
+}
+
+.Reparto1,.Reparto2,.Reparto3{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: red;
+    text-align: center;
+    font-family: "Vollkorn";
+    font-style: bold;
+}
+
+.Reparto1 p,.Reparto2 p,.Reparto3 p{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.Left{
+    display: flex;
+    flex-direction: row;
+}
+
+.Right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.LeftImage{
+    display: block;
+    width: 50%;
+    height: auto;
+    border: 3pt outset red;
+    margin-left: 5cm;
+    margin-right: 1.5cm;
+}
+
+.RightImage{
+    display: block;
+    width: 50%;
+    height: auto;
+    border: 3pt outset red;
+    margin-left: 0cm;
+    margin-right: 5cm;
+}
